@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(path = "/bank")
+@RequestMapping(path = "/banks")
 public class BankController {
 
     private final BankService bankService;

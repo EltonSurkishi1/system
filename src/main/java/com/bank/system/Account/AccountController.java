@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(path = "/account")
+@RequestMapping(path = "/accounts")
 public class AccountController {
 
     private final AccountService accountService;
